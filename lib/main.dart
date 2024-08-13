@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget{
       ),
       debugShowCheckedModeBanner: false,
       home:MyFirstApp(),
-     // home:CallsPage(),
+    //  home:CallsPage(),
     );
   }
 }
@@ -200,16 +200,7 @@ class MyFirstApp extends StatelessWidget{
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        onTap: ,
-        items: const [
-          BottomNavigationBarItem(
-              icon: Icon(Icons.call, color: Colors.black,),label: "Calls",backgroundColor: Colors.grey),
-          BottomNavigationBarItem(icon: Icon(Icons.update,color: Colors.black,),label: "Updates",backgroundColor: Colors.grey),
-          BottomNavigationBarItem(icon:Icon(Icons.today_outlined,color:Colors.black),label: "Tools",backgroundColor: Colors.grey),
 
-        ],
-      ),
     );
   }
 }
